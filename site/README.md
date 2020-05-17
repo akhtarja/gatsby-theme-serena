@@ -34,7 +34,7 @@ Your project using this theme goes here
 Generate a new site pre-configured with Gatsby Theme Serena.
 
 ```sh
-gatsby new my-themed-site https://github.com/daniel-seoane/gatsby-starter-serena
+gatsby new my-themed-site https://github.com/akhtarja/gatsby-theme-serena
 ```
 
 Here are the top-level files and directories you'll see in a site created using the starter:
