@@ -2,11 +2,6 @@ module.exports = [
   {
     name: "About",
     url: "/about/",
-    type: "internal"
+    type: "internal",
   },
-  {
-    name: "Contact",
-    url: "/contact/",
-    type: "internal"
-  }
 ];

@@ -14,7 +14,6 @@ Check out the [live demo](https://gatsby-theme-serena-demo.netlify.com)
 - Define your galleries with YAML
 - Local or remote images
 - Masonry grid (vertical or horizontal) and lightbox
-- Contact form (Netlify)
 - Generate About page and more with MDX
 - Social links
 - Styling with Theme UI
@@ -22,7 +21,7 @@ Check out the [live demo](https://gatsby-theme-serena-demo.netlify.com)
 - Offline support
 - Perfect Lighthouse score ([web.dev](https://web.dev))
 
-![Perfect Lighthouse score](https://media.publit.io/file/gatsbyThemeSerena/serena-perfect-score-lighthouse.png )
+![Perfect Lighthouse score](https://media.publit.io/file/gatsbyThemeSerena/serena-perfect-score-lighthouse.png)
 
 ## 🌐Showcase
 
@@ -81,7 +80,7 @@ yarn add gatsby-theme-serena
 module.exports = {
   plugins: [
     {
-      resolve: 'gatsby-theme-serena',
+      resolve: "gatsby-theme-serena",
       options: {
         // See config section for more information
       },
@@ -92,15 +91,14 @@ module.exports = {
 
 ## 📝Config
 
-| Key              | Default value       | Description                                                                                               |
-| ---------------- | ------------------- | --------------------------------------------------------------------------------------------------------- |
-| `galleriesPath`  | `content/galleries` | Location of galleries, can be one or multiple YML files                                                   |
-| `pagesPath`      | `content/pages`     | Location of pages                                                                                         |
-| `assetPath`      | `content/assets`    | Location of assets                                                                                        |
-| `disableContact` | `false`             | Delete the default Contact page                                                                           |
-| `margin`         | `6`                 | Margin between photos in the masonry grid                                                                 |
-| `direction`      | `column`            | Direction in the masonry grid, "column" (vertical) or "row" (horizontal)                                  |
-| `mdx`            | `true`              | Configure `gatsby-plugin-mdx` (if your website already is using the plugin pass `false` to turn this off) |
+| Key             | Default value       | Description                                                                                               |
+| --------------- | ------------------- | --------------------------------------------------------------------------------------------------------- |
+| `galleriesPath` | `content/galleries` | Location of galleries, can be one or multiple YML files                                                   |
+| `pagesPath`     | `content/pages`     | Location of pages                                                                                         |
+| `assetPath`     | `content/assets`    | Location of assets                                                                                        |
+| `margin`        | `6`                 | Margin between photos in the masonry grid                                                                 |
+| `direction`     | `column`            | Direction in the masonry grid, "column" (vertical) or "row" (horizontal)                                  |
+| `mdx`           | `true`              | Configure `gatsby-plugin-mdx` (if your website already is using the plugin pass `false` to turn this off) |
 
 ## 📝Additional Configuration
 
@@ -114,10 +112,10 @@ module.exports = {
     title: `Serena`,
     // Used for the site description and SEO
     description: `Photography Theme`,
-     // Used for SEO
+    // Used for SEO
     author: "Gatsby",
     // Used for SEO. Must be the full URL for the default image
-    image: 'https://www.example.com/og-image.jpg',
+    image: "https://www.example.com/og-image.jpg",
     // Typographic logo
     name: `Serena`,
     // Short tagline
@@ -127,30 +125,25 @@ module.exports = {
       {
         name: "About",
         url: "/about/",
-        type: "internal" // internal or anchor
+        type: "internal", // internal or anchor
       },
-      {
-        name: "Contact",
-        url: "/contact/",
-        type: "internal" // internal or anchor
-      }
     ],
     // Social links
     social: [
       {
         name: `Facebook`,
-        url: `https://facebook.com`
+        url: `https://facebook.com`,
       },
       {
         name: `Twitter`,
-        url: `https://twitter.com`
+        url: `https://twitter.com`,
       },
       {
         name: `Instagram`,
-        url: `https://instagram.com`
-      }
-    ]
-  }
+        url: `https://instagram.com`,
+      },
+    ],
+  },
 }
 ```
 
